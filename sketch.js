@@ -29,7 +29,7 @@ function setup() {
     colorMode(HSB, 360, 255, 255)
 
     let msg = "SELECTS", txtX=0, txtY=0;
-    if(width<720){
+    if(width<900){
         w=5;
         fontSize=80;
         points = font.textToPoints(msg, txtX, txtY, fontSize, {sampleFactor: .1});
