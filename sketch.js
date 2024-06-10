@@ -21,7 +21,7 @@ function make2DArray(cols, rows){
 }
 
 function preload(){
-    font = loadFont("src/TiemposHeadline-Black.otf")
+    font = loadFont("src/TiemposHeadline-Black.woff")
 }
 
 function setup() {
@@ -31,7 +31,7 @@ function setup() {
     let msg = "SELECTS", txtX=0, txtY=0;
     if(width<720){
         w=5;
-        fontSize=90;
+        fontSize=95;
         points = font.textToPoints(msg, txtX, txtY, fontSize, {sampleFactor: .09});
     }else{
         w=10;
