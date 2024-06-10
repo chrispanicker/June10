@@ -31,8 +31,8 @@ function setup() {
     let msg = "SELECTS", txtX=0, txtY=0;
     if(width<720){
         w=5;
-        fontSize=95;
-        points = font.textToPoints(msg, txtX, txtY, fontSize, {sampleFactor: .09});
+        fontSize=80;
+        points = font.textToPoints(msg, txtX, txtY, fontSize, {sampleFactor: .1});
     }else{
         w=10;
         fontSize=300;
